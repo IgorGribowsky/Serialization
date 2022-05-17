@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Bynary", "Serialization.Bynary\Serialization.Bynary.csproj", "{D8E4CF05-E4F3-4821-A527-F29CC375657D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.Bynary", "Serialization.Bynary\Serialization.Bynary.csproj", "{D8E4CF05-E4F3-4821-A527-F29CC375657D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Core", "Serialization.Core\Serialization.Core.csproj", "{658931FB-29C1-4F66-BEBC-D89296807D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.Core", "Serialization.Core\Serialization.Core.csproj", "{658931FB-29C1-4F66-BEBC-D89296807D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.Json", "Serialization.Json\Serialization.Json.csproj", "{9EF306EB-D92F-4573-92F9-DC043A7FD40F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.Json", "Serialization.Json\Serialization.Json.csproj", "{9EF306EB-D92F-4573-92F9-DC043A7FD40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.xml", "Serialization.xml\Serialization.xml.csproj", "{3D964A00-7D29-41EF-9FA6-88B5B3787865}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.xml", "Serialization.xml\Serialization.xml.csproj", "{3D964A00-7D29-41EF-9FA6-88B5B3787865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.OwnBinary", "Serialization.OwnBinary\Serialization.OwnBinary.csproj", "{52E4C307-C058-4245-B753-854086050E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization.OwnBinary", "Serialization.OwnBinary\Serialization.OwnBinary.csproj", "{52E4C307-C058-4245-B753-854086050E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization.DeepCloning", "Serialization.DeepCloning\Serialization.DeepCloning.csproj", "{0CF10ABC-B95A-4272-AC79-4505745E58E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{52E4C307-C058-4245-B753-854086050E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52E4C307-C058-4245-B753-854086050E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52E4C307-C058-4245-B753-854086050E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF10ABC-B95A-4272-AC79-4505745E58E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF10ABC-B95A-4272-AC79-4505745E58E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF10ABC-B95A-4272-AC79-4505745E58E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF10ABC-B95A-4272-AC79-4505745E58E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

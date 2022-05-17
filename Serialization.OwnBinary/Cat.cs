@@ -10,13 +10,19 @@ namespace Serialization.OwnBinary
 
         public int Age { get; set; }
 
+        public Cat() { }
+
+        public Cat(SerializationInfo info, StreamingContext context)
+        {
+            Name = (string)info.GetValue(nameof(Name), typeof(string));
+            Age = (int)info.GetValue(nameof(Age), typeof(int));
+        }
+
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
-            if (info == null)
-                throw new ArgumentNullException("info");
-
-            info.AddValue(nameof(Name), Name);
-            info.AddValue(nameof(Age), Age);
+            // Use the AddValue method to specify serialized values.
+            info.AddValue(nameof(Name), Name, Name.GetType());
+            info.AddValue(nameof(Age), Age, Age.GetType());
         }
     }
 }
